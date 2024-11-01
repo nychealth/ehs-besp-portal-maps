@@ -1,0 +1,290 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": false,
+  "zoombackto": false,
+  "allowCustom": false,
+  "allowResetAll": false,
+  "allowTurnOffAll": false,
+  "filters": [
+    {
+      "layerId": "PCS_DOHMHRatMap_Inspection_6798",
+      "url": "https://services3.arcgis.com/A6Zjpzrub8ESZ3c7/arcgis/rest/services/PCS_DOHMHRatMap_Inspection/FeatureServer/0",
+      "name": "Passed at Last Inspection",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Category",
+              "label": "Category",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": "Passed"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "Category = 'Passed'",
+            "expr": "Category = 'Passed'"
+          }
+        ],
+        "expr": "Category = 'Passed'",
+        "displaySQL": "Category = 'Passed'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          167,
+          198,
+          54,
+          209
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            167,
+            198,
+            54,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "PCS_DOHMHRatMap_Inspection_6798",
+      "url": "https://services3.arcgis.com/A6Zjpzrub8ESZ3c7/arcgis/rest/services/PCS_DOHMHRatMap_Inspection/FeatureServer/0",
+      "name": "Rat Activity at Last Inspection",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Category",
+              "label": "Category",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": "Rat Activity"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "Category = 'Rat Activity'",
+            "expr": "Category = 'Rat Activity'"
+          }
+        ],
+        "expr": "Category = 'Rat Activity'",
+        "displaySQL": "Category = 'Rat Activity'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          252,
+          48,
+          205,
+          209
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            252,
+            48,
+            205,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "PCS_DOHMHRatMap_Inspection_6798",
+      "url": "https://services3.arcgis.com/A6Zjpzrub8ESZ3c7/arcgis/rest/services/PCS_DOHMHRatMap_Inspection/FeatureServer/0",
+      "name": "Failed for Other Reason at Last Inspection",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Category",
+              "label": "Category",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": "Failed for Other Reason"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "Category = 'Failed for Other Reason'",
+            "expr": "Category = 'Failed for Other Reason'"
+          }
+        ],
+        "expr": "Category = 'Failed for Other Reason'",
+        "displaySQL": "Category = 'Failed for Other Reason'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          111,
+          67,
+          168,
+          201
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            111,
+            67,
+            168,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "PCS_DOHMHRatMap_Inspection_6798",
+      "url": "https://services3.arcgis.com/A6Zjpzrub8ESZ3c7/arcgis/rest/services/PCS_DOHMHRatMap_Inspection/FeatureServer/0",
+      "name": "Not Inspected in the Past 6 Months",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          112,
+          112,
+          116,
+          207
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            112,
+            112,
+            116,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "PCS_DOHMHRatMap_Inspection_6798",
+      "url": "https://services3.arcgis.com/A6Zjpzrub8ESZ3c7/arcgis/rest/services/PCS_DOHMHRatMap_Inspection/FeatureServer/0",
+      "name": "DOHMH Intervention",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "exvisits",
+              "label": "exvisits",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 0
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "exvisits > 0",
+            "expr": "exvisits > 0"
+          }
+        ],
+        "expr": "exvisits > 0",
+        "displaySQL": "exvisits > 0"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          255,
+          255,
+          255,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    }
+  ]
+}

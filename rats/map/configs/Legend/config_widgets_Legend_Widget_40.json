@@ -1,0 +1,23 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": false,
+    "respectCurrentMapScale": false
+  },
+  "layerState": {
+    "PCS_RIP_CommunityDistricts_6732": {
+      "selected": false
+    },
+    "PCS_RIP_CommunityDistricts_5413": {
+      "selected": false
+    },
+    "PCS_DOHMHRatMap_Inspection_6798": {
+      "selected": false
+    },
+    "BASE_PARKS_DRP_4571": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

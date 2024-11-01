@@ -1,0 +1,59 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": true,
+  "zoombackto": true,
+  "allowCustom": false,
+  "allowResetAll": false,
+  "allowTurnOffAll": false,
+  "filters": [
+    {
+      "layerId": "PCS_DOHMHRatMap_Inspection_6798",
+      "url": "https://services3.arcgis.com/A6Zjpzrub8ESZ3c7/arcgis/rest/services/PCS_DOHMHRatMap_Inspection/FeatureServer/0",
+      "name": "Turn toggle switch ON to select",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "NewCD",
+              "label": "NewCD",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "Select Community Board below",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 12,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/OrangeStickpin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      }
+    }
+  ]
+}
