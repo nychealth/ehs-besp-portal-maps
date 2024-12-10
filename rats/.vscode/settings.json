@@ -2,7 +2,7 @@
     "liveServer.settings.root": "./", 
     "liveServer.settings.https": {
         "enable": true,
-        "cert": "C:\\Users\\porte\\Documents\\repos\\ehs-besp-portal-maps\\beaches\\cert\\localhost.pem",  
-        "key": "C:\\Users\\porte\\Documents\\repos\\ehs-besp-portal-maps\\beaches\\cert\\localhost.key"     
+        "cert": "\\cert\\localhost.pem",  
+        "key": "\\cert\\localhost.key"     
     }
 }
