@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.root": "./", 
+    "liveServer.settings.https": {
+        "enable": true,
+        "cert": "C:\\Users\\epoulsen\\ehs-besp-portal-maps\\commissaries\\commissaries\\cert\\localhost.pem",  
+        "key": "C:\\Users\\epoulsen\\ehs-besp-portal-maps\\commissaries\\commissaries\\cert\\localhost.key"     
+    }
+}
